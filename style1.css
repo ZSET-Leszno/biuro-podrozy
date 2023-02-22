@@ -1,0 +1,162 @@
+/* Resetowanie stylów */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Style dla nagłówka */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Style dla sekcji z ofertami */
+section {
+	padding: 50px;
+}
+
+section h2 {
+	margin-bottom: 20px;
+}
+
+.offer {
+	margin-bottom: 50px;
+}
+
+.offer img {
+	width: 100%;
+}
+
+.offer h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.offer p {
+	margin-bottom: 10px;
+}
+
+.button {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/* Style dla stopki */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.kon {
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.okienko
+{
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: row;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 60px;
+    background-color: white;
+    height: 250px;
+    
+}
+img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.foto
+{
+    width: 40%;
+    height: 250px;
+    
+
+}
+.info
+{
+ width: 40%;
+ float: left;
+ border-right: 1px solid black;
+ display: flex;
+flex-direction: column;
+ 
+}
+.title
+{
+ 
+ width: 100%;
+ font-size: 20px;
+ padding-left: 10px;
+ color: rgb(24, 24, 147);
+ height: 30%;
+ padding-top: 10px;
+ 
+
+}
+.kraj
+{
+    width: 100%;
+    font-size: 100%;
+    padding-left: 10px;
+    color: rgb(24, 24, 147);
+    height: 15%;
+    
+}
+.wylot
+{
+    width: 100%;
+    font-size: 100%;
+    padding-left: 10px;
+    color: rgb(24, 24, 147);
+    height: 15%;
+    
+}
+.jedzenie
+{
+    width: 100%;
+    font-size: 100%;
+    padding-left: 10px;
+    color: rgb(24, 24, 147);
+    height: 15%;
+    
+}
+.cena
+{
+    width: 20%;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

@@ -81,7 +81,7 @@ footer {
 
 .okienko
 {
-    width: 100%;
+    width: 80%;
     display: flex;
     border-radius: 20px;
     flex-direction: row;
@@ -89,6 +89,7 @@ footer {
     margin-top: 60px;
     background-color: white;
     height: 250px;
+    margin: auto;
     
 }
 img{
@@ -159,4 +160,42 @@ flex-direction: column;
     padding-top: 40px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+#infoblock2
+{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+#infohalf1
+{
+    width: 50% ;
+    height: 700px;
+    border-bottom: #0a1823 1px solid;
+    float: left;
+    padding-top: 180px;
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+   padding-left: 5%;
+   padding-right: 5%;
+
+    
+}
+#infohalf2
+{
+    width: 50%;
+    height: 700px;
+    
+    float: left;
+    padding-top: 150px;
+    text-align: center;
+    border-bottom: #0a1823 1px solid;
+    
+}
+d
+{
+    color: #c59969;
+    
 }
